@@ -6,11 +6,10 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 
-### тест EXP-002 - общий вид формы (сохранить скриншот)
+### тест EXP-002 - общий вид формы
 def test_002_vision(selenium):
     form = AuthForm(selenium)
-    form.driver.save_screenshot('screen_002.jpg')
-
+   
 
 ### тест EXP-005 - проверка, что по-умолчанию выбрана форма авторизации по телефону
 def test_005_by_phone(selenium):
@@ -24,7 +23,7 @@ def test_006_change_placeholder(selenium):
     form = AuthForm(selenium)
 
     # ввод телефона
-    form.username.send_keys('+79998887766')
+    form.username.send_keys('+79222333914')
     form.password.send_keys('_')
     sleep(5)
 
