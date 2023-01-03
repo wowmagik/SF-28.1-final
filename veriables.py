@@ -8,7 +8,7 @@ EMAIL = 'latte_love@mail.ru'
 PASSWORD = 'Qwerty98745632'
 PHONE = '+7 9222 333 914'
 
-WRONG_LOGIN = ['', 'testRT@mail.ru', '89366199900']
+WRONG_LOGIN = ['', 'testRT@mail.ru', '89223366580']
 WRONG_LOGIN_IDS = ['empty email', 'wrong email', 'wrong phone number']
 WRONG_PASSWORDS = ['', 'qwert852', PASSWORD.upper(), PASSWORD.lower()]
 WRONG_PASSWORD_IDS = ['empty password', 'wrong password', 'register upper', 'register lower']
